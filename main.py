@@ -2,7 +2,7 @@
 __author__ = 'An'
 
 from SaveResult import SaveResult
-import sys
+#import sys
 import os
 import time
 import hashlib
@@ -10,6 +10,7 @@ import uitls
 from pyfiglet import Figlet
 from MatchRule import MatchRule
 from AnalysisXMLS.ManifestParser import GetMainfestBasicInfo
+
 class GetAPKInfo():
     def __init__(self):
         #self.tempFile = tempfile.gettempdir()
